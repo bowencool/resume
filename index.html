@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <base target="_blank" />
+    <title>前端开发_赵博文_4年经验_本科</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <section class="no-print">
+      <dl style="color: rgb(255, 153, 0)">
+        <dt>PDF 简历获取步骤：</dt>
+        <dd>右键 -> 打印 -> 目标打印机：保存为 PDF</dd>
+      </dl>
+    </section>
+    <header>
+      <h1>赵博文</h1>
+      <section>
+        男 | 4年经验 | 前端开发 | 26岁 | 未婚 | 南京工业大学统招一本
+      </section>
+      <section>
+        <a href="tel:19144723705">19144723705</a> |
+        <a href="mailto:bowen.cool@foxmail.com">bowen.cool@foxmail.com</a> |
+        <a href="https://github.com/bowencool">https://github.com/bowencool</a>
+      </section>
+    </header>
+    <content>
+      <h3>TL;DR</h3>
+      <ul class="skills">
+        <li>熟悉 Vue/React(ES6+、TypeScript)及其生态，更熟悉 Vue。</li>
+        <li>
+          熟悉 webpack 及其工具链，拥有丰富配置/优化经验，有插件开发经验。
+        </li>
+        <li>熟悉 Node 技术栈并取得一定成果。深度没信心，但成果显著。</li>
+        <li>
+          紧跟 ECMAScript
+          规范，追求优雅、易读、高效，喜欢尝鲜并迫不及待地投入实际使用。
+        </li>
+        <!-- <li>热爱 coding，为开源社区贡献若干 PR.</li> -->
+      </ul>
+      <h3>工作经历</h3>
+      <ul class="exp">
+        <li>
+          <span>2020/05~至今 | 高级前端工程师 | 杭州魔筷科技有限公司</span>
+          <p>前端基建推动者；电商业务支撑。</p>
+        </li>
+        <li>
+          <p>2019/10～2020/05 ｜ 经历了被动离职、疫情、被骗去外包。</p>
+        </li>
+        <li>
+          <span>2018/09~2019/10 | Web 前端 | 杭州麻瓜网络科技有限公司</span>
+          <p>“黑市商城”业务支撑，“全都要”分销平台前端 PM。</p>
+        </li>
+        <li>
+          <p>2018/04~2018/08 | 经历公司解散、误入传销。</p>
+        </li>
+      </ul>
+
+      <h3>项目经验</h3>
+      <ul class="projects">
+        <li>
+          <b>2021/04~至今 | SCRM 移动端 （企业微信内嵌H5）</b>
+          <ul>
+            <li>
+              业务：企微客户管理（客户关系、群聊、潜客）、客户画像（标签、事件动态、数据）、聊天辅助工具（快捷回复、话术、素材）等。
+            </li>
+            <li>业绩：v1.0 上线一个月卖了 100+ 单。</li>
+            <li>
+              技术：
+              <ul>
+                <li>vue2 升级 vue3，尽自己所能做到最佳实践</li>
+                <li>企微 SDK 的（ promisify 及自动按需初始化）封装</li>
+                <li>
+                  无限滚动分页组件（基于 vant3 的组件 + 自定义
+                  hook，仅一个必传参数，真开箱即用）
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <b>2020/09~2021/04 | 前端监控系统</b>
+          <ul>
+            <li>
+              <u>从零自研，自己当产品/设计、开发/运维</u>。全面拥抱 Typescript。
+            </li>
+            <li>
+              最主要的功能是异常监控，主要流程包括：
+
+              <ul>
+                <li>
+                  webpack 插件（<u>自动注入 SDK</u>、收集 sourcemap 文件）
+                </li>
+                <li>SDK（采集、清洗、浅分析、浅聚合、上报）</li>
+                <li>
+                  分析储存、报表展示
+                  <ul>
+                    <li>
+                      通过 <u>sourcemap 和 操作记录</u> 精准还原事故现场，
+                      操作记录包含：路由切换、生命周期（小程序）、http
+                      请求、点击事件、异常记录、自定义事件等；
+                    </li>
+                  </ul>
+                </li>
+
+                <li>
+                  告警、日报推送、任务指派
+                  <ul>
+                    <li>
+                      通过 npm blame -> git blame -> project blame -> app blame
+                      -> user inheritance 这样一条线索自动创建
+                      Issue，精准指派到具体的开发同学。
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              当然还包括 web
+              端的性能监控，主要采集指标包括：TTFB、FCP、LCP、TBT、L、DCL、TTI、CLS、FID、FPS、MEM
+              等。
+              图表种类繁多，包括实时异常趋势图/分布图/排行榜、（受影响）客户端类型分布图、实时性能雷达图、（性能指标）百分比堆叠条形图、百分比趋势图、中位数/平均数趋势图等，监控数据一览无余。
+            </li>
+            <li>打通域账号（含企业微信）、gitlab（熟练 OAuth2.0）。</li>
+            <li>已纳入团队考核指标。</li>
+          </ul>
+        </li>
+
+        <li>
+          <b>2020/10~2020/12 | 内网域账号 SSO 体系方案制定、落地</b>
+          <ul>
+            <li>参与方案制定、前端体系搭建等，<u>核心开发者之一</u>。</li>
+            <!-- 甚至给服务端、运维讲解 Http、前端知识，<u>有一定影响力</u>。 -->
+            <li>
+              解决了公司内部账密繁多、员工记忆成本高导致的工作效率低的问题。
+            </li>
+          </ul>
+        </li>
+        <li>
+          <b>2020/06~2020/12 | 推动中后台微前端改造</b>
+          <ul>
+            <li>
+              推动公司 10+
+              中后台项目进行微前端改造，推动前端、运维、产品等多团队协作。
+            </li>
+            <li>
+              降低了部分业务 60%
+              的工作量（以前是多条业务线多个仓库同时开发、提交&合并、部署同一个需求），也奠定了渐进式升级技术栈的基础。
+            </li>
+          </ul>
+        </li>
+        <li>
+          <b>2020/06~2020/08 | 命令行工具包</b>
+          <ul>
+            <li>
+              <code>init</code>
+              初始化新项目：从模板仓库拉取，根据用户输入对目录编译，支持文件过滤、钩子，采用双模板引擎互补的方式解决某些场景冲突。
+            </li>
+            <li>
+              <code>init-lint</code> 一键接入团队规范：配套
+              @mk/rules、@mk/eslint-config-xxx
+              （当然这些规范也是我推动并落地的），补全/覆盖所有
+              lint：eslint、stylelint、commitlint、prettier、<a
+                href="https://github.com/bowencool/checkversion"
+                >check-versions</a
+              >.
+            </li>
+            <li>
+              <code>up-micro</code>
+              老项目一键支持微前端：核心是 AST 分析、写入，包括 vue 文件。
+            </li>
+          </ul>
+        </li>
+
+        <!-- <div style="page-break-after: always"></div> -->
+        <li>
+          <b
+            >2018/10~2019/06 | 全都要分销平台
+            <a href="https://www.quandouyo.com">https://www.quandouyo.com</a></b
+          >
+          <ul>
+            <li>本人在此项目中的角色是前端 PM。</li>
+            <li>
+              技术栈沿用公司传统，采用 Vue SSR，本人在此基础上主动重构了 webpack
+              配置：
+              <ul>
+                <li><u>构建速度提升 65%</u></li>
+                <li>
+                  优化拆包策略，压榨缓存性能；固定 moduleId 和 chunkId，优化了
+                  webpack<u>持久化缓存</u>的历史遗留问题。
+                </li>
+                <li>支持（编译/运行时）<u>降级</u>为客户端渲染</li>
+              </ul>
+            </li>
+            <li>
+              针对项目情况，提出了“量身定制”的分支管理策略。经时间考验，顺利推广至下家公司。
+            </li>
+          </ul>
+        </li>
+
+        <!-- <div style="page-break-after: always;"></div> -->
+
+        <li>
+          <b
+            >2018/07~2019/02 | Buejs（自己的<u>开源</u>项目）<a
+              href="https://github.com/bowencool/bue"
+              >https://github.com/bowencool/bue</a
+            ></b
+          >
+          <ul>
+            <li>
+              用 TypeScript 写了一个简易版 Vue，从 Object.defineProperty 到
+              Proxy，两种实现方案，均支持数组观察。当时最难的点，就是对依赖的理解，之前误以为是一个依赖就是一个
+              property…通过这个项目，深入理解了 Vue 响应式原理。
+            </li>
+          </ul>
+        </li>
+
+        <!-- <li>
+          <b>2017/08~2017/12 | 烹烹微信点餐（微信公众号 H5）</b>
+          <p>
+            本人接手的是传统的基于 jQuery 的版本，在不影响功能的前提下，<u>主动、独立</u>地优化项目代码架构，逐步重构为 vue
+            browser 版、vue
+            spa 版，实现了（当时的）前端工程化、模块化的最佳实践，解决了青铜时代面条代码的可读性差、可扩展性差、维护成本高的痛点。研发时间大大缩短，用户体验大幅提升。
+          </p>
+        </li> -->
+        <li>
+          <b>其他：</b>
+          <ul>
+            <li>
+              2018/09~2018/10 |
+              <a href="https://github.com/bowencool/swagger-ui">SwaggerUI</a> |
+              内部文档工具<u>（已开源）</u>。
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- <h3>自述</h3>
+      <p>
+        对技术有信心。曾多次通过一二线大厂的技术面，但都<u
+          >因为稳定性较差遗憾止步，如果接受不了就别 PUA 了，我谢谢您。</u
+        >
+        期待的发展路线：工程化（基建）方向 ，偏好稳定的、有前途的技术；也考虑业务 TL，毕竟技术强人太多了。
+      </p> -->
+    </content>
+  </body>
+</html>

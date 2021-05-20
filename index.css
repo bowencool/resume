@@ -1,0 +1,41 @@
+body {
+  padding: 20px;
+  font-size: 14px;
+}
+@media print {
+  .no-print {
+    display: none;
+  }
+  body {
+    /* margin: 0; */
+    padding: 0;
+  }
+}
+header h1 {
+  margin: 0;
+}
+content h3 {
+  padding-left: 10px;
+  margin-bottom: 0;
+  border-left: 4px solid #1890ff;
+  /* background: linear-gradient(to right, #1890ff, transparent); */
+  /* color: #fff; */
+}
+content ul {
+  padding-left: 25px;
+}
+ul.projects > li + li {
+  margin-top: 10px;
+}
+/* content > ul {
+  margin: 4px 0;
+} */
+a {
+  color: #1890ff;
+}
+li p {
+  margin-top: 6px;
+}
+u {
+  font-weight: bold;
+}
