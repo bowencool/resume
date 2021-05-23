@@ -24,8 +24,8 @@ content h3 {
 content ul {
   padding-left: 25px;
 }
-ul.projects > li + li {
-  margin-top: 10px;
+ul.projects > li {
+  margin-bottom: 10px;
 }
 /* content > ul {
   margin: 4px 0;
